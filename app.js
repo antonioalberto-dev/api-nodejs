@@ -10,6 +10,7 @@ app.get("/about", (req, res) => {
     urls: [
       { type: "github", url: "https://github.com/antonioalberto-dev" },
       { type: "discord", url: "alberto.dev" },
+      { type: "twitter", url: "@alberto.dev" },
     ],
   });
 });
